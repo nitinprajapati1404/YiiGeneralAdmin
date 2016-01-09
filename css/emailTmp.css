@@ -1,0 +1,275 @@
+#bodyTable,
+#bodyCell { height: 100% !important; margin: 0; padding: 0; width: 100% !important; }
+table { border-collapse: collapse; }
+img,
+a img { border: 0; outline: none; text-decoration: none; }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 { margin: 0; padding: 0; }
+p { margin: 1em 0; padding: 0; }
+a { word-wrap: break-word; }
+.ReadMsgBody { width: 100%; }
+.ExternalClass { width: 100%; }
+.ExternalClass,
+.ExternalClass p,
+.ExternalClass span,
+.ExternalClass font,
+.ExternalClass td,
+.ExternalClass div { line-height: 100%; }
+table,
+td { mso-table-lspace: 0pt; mso-table-rspace: 0pt; }
+#outlook a { padding: 0; }
+img { -ms-interpolation-mode: bicubic; }
+body,
+table,
+td,
+p,
+a,
+li,
+blockquote { -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; }
+body{margin:0;padding:0;}
+#bodyCell { padding: 20px; }
+.pmcImage { vertical-align: bottom; }
+.pmcTextContent img { height: auto !important; max-width: 556px; }
+table tr td img {
+    width: auto !important;
+}
+#bodyTable { background-color: #F2F2F2!important; }
+#bodyCell { border-top: 0; }
+#templateContainer { border: 0; }
+h1 { color: #606060 !important; display: block; font-family: Arial, Helvetica, sans-serif; font-size: 40px; font-style: normal; font-weight: bold; line-height: 125%; letter-spacing: -1px; margin: 0; text-align: left; }
+h2 { color: #404040 !important; display: block; font-family: Arial, Helvetica, sans-serif; font-size: 26px; font-style: normal; font-weight: bold; line-height: 125%; letter-spacing: -.75px; margin: 0; text-align: left; }
+h3 { color: #606060 !important; display: block; font-family: Arial, Helvetica, sans-serif; font-size: 18px; font-style: normal; font-weight: bold; line-height: 125%; letter-spacing: -.5px; margin: 0; text-align: left; }
+h4 { color: #808080 !important; display: block; font-family: Arial, Helvetica, sans-serif; font-size: 16px; font-style: normal; font-weight: bold; line-height: 125%; letter-spacing: normal; margin: 0; text-align: left; }
+#templatePreheader { background-color: #FFFFFF; border-top: 0; border-bottom: 0; }
+.preheaderContainer .pmcTextContent,
+.preheaderContainer .pmcTextContent p { color: #606060; font-family: Arial, Helvetica, sans-serif; font-size: 11px; font-style: normal; line-height: 125%; text-align: left; }
+.preheaderContainer .pmcTextContent a { color: #606060; font-weight: normal; text-decoration: underline; }
+#templateHeader { background-color: #FFFFFF; border-top: 0; border-bottom: 0; }
+.headerContainer .pmcTextContent,
+.headerContainer .pmcTextContent p { color: #606060; font-family: Arial, Helvetica, sans-serif; font-size: 15px; line-height: 150%; text-align: left; margin: 10px;}
+.headerContainer .pmcTextContent a { color: #6DC6DD; font-weight: normal; text-decoration: underline; }
+#templateBody { background-color: #FFFFFF; border-top: 0; border-bottom: 0; }
+.bodyContainer .pmcTextContent{padding:9px 18px;}
+.pmcTextContentContainer{padding:9px 18px;}
+#textareaControls .modal-dialog{width: 650px !important;}
+.bodyContainer .pmcTextContent,
+.bodyContainer .pmcTextContent p { color: #606060; font-family: Arial, Helvetica, sans-serif; font-size: 15px; line-height: 150%; text-align: left; }
+.bodyContainer .pmcTextContent a { color: #6DC6DD; font-weight: normal; text-decoration: underline; }
+#templateFooter { background-color: #FFFFFF; border-top: 0; border-bottom: 0; }
+.footerContainer .pmcTextContent,
+.footerContainer .pmcTextContent p { color: #606060; font-family: Arial, Helvetica, sans-serif; font-size: 11px; line-height: 125%; text-align: left; }
+.footerContainer .pmcTextContent a { color: #606060; font-weight: normal; text-decoration: underline; }
+
+.mojoImageUploader { outline: 0px solid #bbb; /*background: #f7f7f7; */vertical-align: middle; text-align: center; font-size: 12px; padding: 15px 0 }
+.mojoImageUploader * { text-align: center; font-family: Arial, Helvetica, sans-serif; color: #333; line-height: 20px; font-weight: normal }
+.mojoImageUploader.hover { background: #e3f3f5; color: #005664; outline: 2px solid #45bcd2 }
+.mojoImageUploader img { margin: 0 auto }
+.mojoImageUploader .imagePlaceholder { padding: 15px 0 }
+.mojoImageUploader .imagePlaceholder div { padding-top: 8px; line-height: 12px; color: #959595 }
+.mojoImageUploader .imagePlaceholder span { font-weight: bold; font-size: 14px; color: #959595 }
+.mojoImageUploader .imagePlaceholder img.mojoImageItemIcon { width: 100%; max-width: 560px }
+.mojoImageUploader .imagePlaceholder input.button-small { width: 85%; max-width: 90px; margin: 2px 0 }
+.button-small { background-color: #737373; color: #fff; display: inline-block; white-space: nowrap; line-height: 36px; height: 36px; margin: 1px 5px 1px 0; border: none; padding: 0 18px; text-decoration: none; text-align: center; font-style: normal; font-size: 13px; cursor: pointer; border-radius: 4px; vertical-align: center; font-weight: 700; letter-spacing: .01em; text-transform: capitalize; font-family: Arial, Helvetica, sans-serif; -webkit-appearance: none }
+.button-small:hover,
+.button-small:focus { background-color: #6b6b6b }
+.prvSaveBtnRow{margin: 0 -20px;width:96%;padding: 2%;}
+/* sprite images for controls*/
+#imagesLabel {
+    width: 155px;
+    height: 120px;
+    background: url(../images/emailtemplate/blocks_sprite.png) 193px 1080px;
+}
+#textareaLabel {
+     width: 155px;
+    height: 120px;
+    background: url(../images/emailtemplate/blocks_sprite.png) 193px 1532px;
+}
+#buttonLabel {
+     width: 155px;
+    height: 120px;
+    background: url(../images/emailtemplate/blocks_sprite.png) 193px 210px;
+}
+#dividerLabel {
+     width: 155px;
+    height: 120px;
+    background: url(../images/emailtemplate/blocks_sprite.png) 193px 1305px;
+}
+#multiImagesLabel {
+     width: 155px;
+    height: 120px;
+    background: url(../images/emailtemplate/blocks_sprite.png) 193px 852px;
+}
+#imgCaptionLabel {
+     width: 155px;
+    height: 120px;
+    background: url(../images/emailtemplate/blocks_sprite.png) 193px 634px;
+}
+.pmcd{background-color:#f2f2f2; }
+.colorpicker{z-index: 9999 !important;}
+#mceu_15{width:100%!important;}
+/*.imagePlaceholder {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 
+	padding-top: 25px;
+	height: 0;
+}
+.imagePlaceholder iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}*/
+/* sprite images for controls*/
+
+@media only screen and (max-width: 480px) {body,table,td,p,a,li,blockquote { -webkit-text-size-adjust: none !important; }
+}
+@media only screen and (max-width: 480px) {
+body { width: 100% !important; min-width: 100% !important; }
+}
+@media only screen and (max-width: 480px) {
+td[id=bodyCell] { padding: 10px !important; }
+}
+@media only screen and (max-width: 480px) {
+table[class=pmcTextContentContainer] { width: 100% !important; }
+}
+@media only screen and (max-width: 480px) {
+table[class=pmcBoxedTextContentContainer] { width: 100% !important; }
+}
+@media only screen and (max-width: 480px) {
+table[class=mcpreview-image-uploader] { width: 100% !important;/*display:none !important;*/
+}
+}
+@media only screen and (max-width: 480px) {
+img[class=pmcImage] { width: 100% !important; }
+}
+@media only screen and (max-width: 480px) {
+table[class=pmcImageGroupContentContainer] { width: 100% !important; }
+}
+@media only screen and (max-width: 480px) {
+td[class=pmcImageGroupContent] { padding: 9px !important; }
+}
+@media only screen and (max-width: 480px) {
+td[class=pmcImageGroupBlockInner] { padding-bottom: 0 !important; padding-top: 0 !important; }
+}
+ @media only screen and (max-width: 480px) {
+tbody[class=pmcImageGroupBlockOuter] { padding-bottom: 9px !important; padding-top: 9px !important; }
+}
+@media only screen and (max-width: 480px) {
+table[class=pmcCaptionTopContent],
+table[class=pmcCaptionBottomContent] { width: 100% !important; }
+}
+@media only screen and (max-width: 480px) {
+table[class=pmcCaptionLeftTextContentContainer],
+table[class=pmcCaptionRightTextContentContainer],
+table[class=pmcCaptionLeftImageContentContainer],
+table[class=pmcCaptionRightImageContentContainer],
+table[class=pmcImageCardLeftTextContentContainer],
+table[class=pmcImageCardRightTextContentContainer] { width: 100% !important; }
+}
+@media only screen and (max-width: 480px) {
+td[class=pmcImageCardLeftImageContent],
+td[class=pmcImageCardRightImageContent] { padding-right: 18px !important; padding-left: 18px !important; padding-bottom: 0 !important; }
+}
+@media only screen and (max-width: 480px) {
+td[class=pmcImageCardBottomImageContent] { padding-bottom: 9px !important; }
+}
+@media only screen and (max-width: 480px) {
+td[class=pmcImageCardTopImageContent] { padding-top: 18px !important; }
+}
+@media only screen and (max-width: 480px) {
+td[class=pmcImageCardLeftImageContent],
+td[class=pmcImageCardRightImageContent] { padding-right: 18px !important; padding-left: 18px !important; padding-bottom: 0 !important; }
+}
+@media only screen and (max-width: 480px) {
+td[class=pmcImageCardBottomImageContent] { padding-bottom: 9px !important; }
+}
+@media only screen and (max-width: 480px) {
+td[class=pmcImageCardTopImageContent] { padding-top: 18px !important; }
+}
+@media only screen and (max-width: 480px) {
+table[class=pmcCaptionLeftContentOuter] td[class=pmcTextContent],
+table[class=pmcCaptionRightContentOuter] td[class=pmcTextContent] { padding-top: 9px !important; }
+}
+@media only screen and (max-width: 480px) {
+td[class=pmcCaptionBlockInner] table[class=pmcCaptionTopContent]:last-child td[class=pmcTextContent] { padding-top: 18px !important; }
+}
+@media only screen and (max-width: 480px) {
+td[class=pmcBoxedTextContentColumn] { padding-left: 18px !important; padding-right: 18px !important; }
+}
+@media only screen and (max-width: 480px) {
+td[class=pmcTextContent] { padding-right: 18px !important; padding-left: 18px !important; }
+}
+@media only screen and (max-width: 480px) {
+table[id=templateContainer],
+table[id=templatePreheader],
+table[id=templateHeader],
+table[id=templateBody],
+table[id=templateFooter] { max-width: 600px !important; width: 100% !important; }
+}
+@media only screen and (max-width: 480px) {
+h1 { font-size: 24px !important; line-height: 125% !important; }
+}
+@media only screen and (max-width: 480px) {
+h2 { font-size: 20px !important; line-height: 125% !important; }
+}
+@media only screen and (max-width: 480px) {
+h3 { font-size: 18px !important; line-height: 125% !important; }
+}
+@media only screen and (max-width: 480px) {
+h4 { font-size: 16px !important; line-height: 125% !important; }
+}
+@media only screen and (max-width: 480px) {
+table[class=pmcBoxedTextContentContainer] td[class=pmcTextContent],
+td[class=pmcBoxedTextContentContainer] td[class=pmcTextContent] p { font-size: 18px !important; line-height: 125% !important; }
+}
+@media only screen and (max-width: 480px) {
+table[id=templatePreheader] { display: block !important; }
+}
+@media only screen and (max-width: 480px) {
+td[class=preheaderContainer] td[class=pmcTextContent],
+td[class=preheaderContainer] td[class=pmcTextContent] p { font-size: 14px !important; line-height: 115% !important; }
+}
+@media only screen and (max-width: 480px) {
+td[class=headerContainer] td[class=pmcTextContent],
+td[class=headerContainer] td[class=pmcTextContent] p { font-size: 18px !important; line-height: 125% !important; }
+}
+@media only screen and (max-width: 480px) {
+td[class=bodyContainer] td[class=pmcTextContent],
+td[class=bodyContainer] td[class=pmcTextContent] p { font-size: 18px !important; line-height: 125% !important; }
+}
+@media only screen and (max-width: 480px) {
+td[class=footerContainer] td[class=pmcTextContent],
+td[class=footerContainer] td[class=pmcTextContent] p { font-size: 14px !important; line-height: 115% !important; }
+}
+@media only screen and (max-width: 480px) {
+td[class=footerContainer] a[class=utilityLink] { display: block !important; }
+}
+
+/*html:before { content: url(/release/10.3.109/images/buttons/loading-gif-button-white.png) url(/release/10.3.109/images/buttons/loading-gif-button-dark.png); display: none }*/
+head { font-family: 'xsphone,phone,xlphone,tablet,xltablet,desktop,xldesktop' }
+@media only screen and (min-width:105em) {
+body:after { font-family: xltablet }
+}
+@media only screen and (max-width:85.375em) {
+body:after { font-family: xltablet }
+}
+@media only screen and (max-width:75em) {
+body:after { font-family: desktop }
+}
+@media only screen and (max-width:64em) {
+body:after { font-family: tablet }
+}
+@media only screen and (max-width:60em) {
+body:after { font-family: xlphone }
+}
+@media only screen and (max-width:40em) {
+body:after { font-family: phone }
+}
+@media only screen and (max-width:31.25em) {
+body:after { font-family: xsphone }
+}

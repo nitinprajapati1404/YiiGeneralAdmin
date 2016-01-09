@@ -1,0 +1,254 @@
+2013/11/30 13:10:45 [error] [exception.CException] exception 'CException' with message 'Property "LoginForm.user_name" is not defined.' in E:\xampp\htdocs\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 E:\xampp\htdocs\yii\framework\web\helpers\CHtml.php(2529): CComponent->__get('user_name')
+#1 E:\xampp\htdocs\yii\framework\web\helpers\CHtml.php(2252): CHtml::resolveValue(Object(LoginForm), 'user_name')
+#2 E:\xampp\htdocs\yii\framework\web\helpers\CHtml.php(1434): CHtml::activeInputField('text', Object(LoginForm), 'user_name', Array)
+#3 E:\xampp\htdocs\yii\framework\web\widgets\CActiveForm.php(725): CHtml::activeTextField(Object(LoginForm), 'user_name', Array)
+#4 E:\xampp\htdocs\commanadmin\protected\views\site\login.php(31): CActiveForm->textField(Object(LoginForm), 'user_name', Array)
+#5 E:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('E:\xampp\htdocs...')
+#6 E:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('E:\xampp\htdocs...', Array, true)
+#7 E:\xampp\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('E:\xampp\htdocs...', Array, true)
+#8 E:\xampp\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('login', Array, true)
+#9 E:\xampp\htdocs\commanadmin\protected\controllers\SiteController.php(97): CController->render('login', Array)
+#10 E:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#11 E:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#12 E:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#13 E:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 E:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('login')
+#15 E:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#16 E:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#17 E:\xampp\htdocs\commanadmin\index.php(13): CApplication->run()
+#18 {main}
+REQUEST_URI=/commanadmin/index.php/site/login
+---
+2013/11/30 13:11:30 [error] [exception.CException] exception 'CException' with message 'Property "LoginForm.user_name" is not defined.' in E:\xampp\htdocs\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 E:\xampp\htdocs\yii\framework\web\helpers\CHtml.php(2529): CComponent->__get('user_name')
+#1 E:\xampp\htdocs\yii\framework\web\helpers\CHtml.php(2252): CHtml::resolveValue(Object(LoginForm), 'user_name')
+#2 E:\xampp\htdocs\yii\framework\web\helpers\CHtml.php(1434): CHtml::activeInputField('text', Object(LoginForm), 'user_name', Array)
+#3 E:\xampp\htdocs\yii\framework\web\widgets\CActiveForm.php(725): CHtml::activeTextField(Object(LoginForm), 'user_name', Array)
+#4 E:\xampp\htdocs\commanadmin\protected\views\site\login.php(31): CActiveForm->textField(Object(LoginForm), 'user_name', Array)
+#5 E:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('E:\xampp\htdocs...')
+#6 E:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('E:\xampp\htdocs...', Array, true)
+#7 E:\xampp\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('E:\xampp\htdocs...', Array, true)
+#8 E:\xampp\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('login', Array, true)
+#9 E:\xampp\htdocs\commanadmin\protected\controllers\SiteController.php(97): CController->render('login', Array)
+#10 E:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#11 E:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#12 E:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#13 E:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 E:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('login')
+#15 E:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#16 E:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#17 E:\xampp\htdocs\commanadmin\index.php(13): CApplication->run()
+#18 {main}
+REQUEST_URI=/commanadmin/index.php/site/login
+---
+2013/11/30 13:11:31 [error] [exception.CException] exception 'CException' with message 'Property "LoginForm.user_name" is not defined.' in E:\xampp\htdocs\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 E:\xampp\htdocs\yii\framework\web\helpers\CHtml.php(2529): CComponent->__get('user_name')
+#1 E:\xampp\htdocs\yii\framework\web\helpers\CHtml.php(2252): CHtml::resolveValue(Object(LoginForm), 'user_name')
+#2 E:\xampp\htdocs\yii\framework\web\helpers\CHtml.php(1434): CHtml::activeInputField('text', Object(LoginForm), 'user_name', Array)
+#3 E:\xampp\htdocs\yii\framework\web\widgets\CActiveForm.php(725): CHtml::activeTextField(Object(LoginForm), 'user_name', Array)
+#4 E:\xampp\htdocs\commanadmin\protected\views\site\login.php(31): CActiveForm->textField(Object(LoginForm), 'user_name', Array)
+#5 E:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('E:\xampp\htdocs...')
+#6 E:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('E:\xampp\htdocs...', Array, true)
+#7 E:\xampp\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('E:\xampp\htdocs...', Array, true)
+#8 E:\xampp\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('login', Array, true)
+#9 E:\xampp\htdocs\commanadmin\protected\controllers\SiteController.php(97): CController->render('login', Array)
+#10 E:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#11 E:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#12 E:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#13 E:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 E:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('login')
+#15 E:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#16 E:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#17 E:\xampp\htdocs\commanadmin\index.php(13): CApplication->run()
+#18 {main}
+REQUEST_URI=/commanadmin/index.php/site/login
+---
+2013/11/30 13:12:05 [error] [exception.CException] exception 'CException' with message 'Property "LoginForm.user_name" is not defined.' in E:\xampp\htdocs\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 E:\xampp\htdocs\yii\framework\web\helpers\CHtml.php(2529): CComponent->__get('user_name')
+#1 E:\xampp\htdocs\yii\framework\web\helpers\CHtml.php(2252): CHtml::resolveValue(Object(LoginForm), 'user_name')
+#2 E:\xampp\htdocs\yii\framework\web\helpers\CHtml.php(1434): CHtml::activeInputField('text', Object(LoginForm), 'user_name', Array)
+#3 E:\xampp\htdocs\yii\framework\web\widgets\CActiveForm.php(725): CHtml::activeTextField(Object(LoginForm), 'user_name', Array)
+#4 E:\xampp\htdocs\commanadmin\protected\views\site\login.php(31): CActiveForm->textField(Object(LoginForm), 'user_name', Array)
+#5 E:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('E:\xampp\htdocs...')
+#6 E:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('E:\xampp\htdocs...', Array, true)
+#7 E:\xampp\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('E:\xampp\htdocs...', Array, true)
+#8 E:\xampp\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('login', Array, true)
+#9 E:\xampp\htdocs\commanadmin\protected\controllers\SiteController.php(97): CController->render('login', Array)
+#10 E:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#11 E:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#12 E:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#13 E:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 E:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('login')
+#15 E:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#16 E:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#17 E:\xampp\htdocs\commanadmin\index.php(13): CApplication->run()
+#18 {main}
+REQUEST_URI=/commanadmin/index.php/site/login
+---
+2013/11/30 13:12:22 [error] [exception.CException] exception 'CException' with message 'Property "LoginForm.user_name" is not defined.' in E:\xampp\htdocs\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 E:\xampp\htdocs\yii\framework\web\helpers\CHtml.php(2529): CComponent->__get('user_name')
+#1 E:\xampp\htdocs\yii\framework\web\helpers\CHtml.php(2252): CHtml::resolveValue(Object(LoginForm), 'user_name')
+#2 E:\xampp\htdocs\yii\framework\web\helpers\CHtml.php(1434): CHtml::activeInputField('text', Object(LoginForm), 'user_name', Array)
+#3 E:\xampp\htdocs\yii\framework\web\widgets\CActiveForm.php(725): CHtml::activeTextField(Object(LoginForm), 'user_name', Array)
+#4 E:\xampp\htdocs\commanadmin\protected\views\site\login.php(31): CActiveForm->textField(Object(LoginForm), 'user_name', Array)
+#5 E:\xampp\htdocs\yii\framework\web\CBaseController.php(126): require('E:\xampp\htdocs...')
+#6 E:\xampp\htdocs\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('E:\xampp\htdocs...', Array, true)
+#7 E:\xampp\htdocs\yii\framework\web\CController.php(869): CBaseController->renderFile('E:\xampp\htdocs...', Array, true)
+#8 E:\xampp\htdocs\yii\framework\web\CController.php(782): CController->renderPartial('login', Array, true)
+#9 E:\xampp\htdocs\commanadmin\protected\controllers\SiteController.php(97): CController->render('login', Array)
+#10 E:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#11 E:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#12 E:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#13 E:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 E:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('login')
+#15 E:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#16 E:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#17 E:\xampp\htdocs\commanadmin\index.php(13): CApplication->run()
+#18 {main}
+REQUEST_URI=/commanadmin/index.php/site/login
+---
+2013/12/02 05:30:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "loginAdmin".' in E:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('loginAdmin')
+#1 E:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('loginAdmin')
+#2 E:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/loginAdmin')
+#3 E:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\commanadmin\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/commanadmin/index.php/site/loginAdmin
+HTTP_REFERER=http://localhost/commanadmin/index.php/site/login
+---
+2014/01/29 08:34:38 [error] [system.db.CDbCommand] CDbCommand::() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'user_name' at line 1. The SQL statement executed was: user_name.
+in E:\php\xampp\htdocs\commanadmin\protected\extensions\JsonWebservice\JsonWebservice.php (244)
+in E:\php\xampp\htdocs\commanadmin\protected\extensions\JsonWebservice\JsonWebservice.php (43)
+in E:\php\xampp\htdocs\commanadmin\protected\controllers\WebserviceController.php (56)
+2014/01/29 08:35:33 [error] [system.db.CDbCommand] CDbCommand::() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'user_name' at line 1. The SQL statement executed was: user_name.
+in E:\php\xampp\htdocs\commanadmin\protected\extensions\JsonWebservice\JsonWebservice.php (244)
+in E:\php\xampp\htdocs\commanadmin\protected\extensions\JsonWebservice\JsonWebservice.php (43)
+in E:\php\xampp\htdocs\commanadmin\protected\controllers\WebserviceController.php (56)
+2014/01/29 08:37:38 [error] [system.db.CDbCommand] CDbCommand::() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'user_name' at line 1. The SQL statement executed was: user_name.
+in E:\php\xampp\htdocs\commanadmin\protected\extensions\JsonWebservice\JsonWebservice.php (244)
+in E:\php\xampp\htdocs\commanadmin\protected\extensions\JsonWebservice\JsonWebservice.php (43)
+in E:\php\xampp\htdocs\commanadmin\protected\controllers\WebserviceController.php (56)
+2014/01/29 08:37:40 [error] [system.db.CDbCommand] CDbCommand::() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'user_name' at line 1. The SQL statement executed was: user_name.
+in E:\php\xampp\htdocs\commanadmin\protected\extensions\JsonWebservice\JsonWebservice.php (244)
+in E:\php\xampp\htdocs\commanadmin\protected\extensions\JsonWebservice\JsonWebservice.php (43)
+in E:\php\xampp\htdocs\commanadmin\protected\controllers\WebserviceController.php (56)
+2014/01/29 08:40:28 [error] [system.db.CDbCommand] CDbCommand::() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'user_name' at line 1. The SQL statement executed was: user_name.
+in E:\php\xampp\htdocs\commanadmin\protected\extensions\JsonWebservice\JsonWebservice.php (244)
+in E:\php\xampp\htdocs\commanadmin\protected\extensions\JsonWebservice\JsonWebservice.php (43)
+in E:\php\xampp\htdocs\commanadmin\protected\controllers\WebserviceController.php (56)
+2014/01/29 08:40:46 [error] [system.db.CDbCommand] CDbCommand::() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'user_name' at line 1. The SQL statement executed was: user_name.
+in E:\php\xampp\htdocs\commanadmin\protected\extensions\JsonWebservice\JsonWebservice.php (244)
+in E:\php\xampp\htdocs\commanadmin\protected\extensions\JsonWebservice\JsonWebservice.php (43)
+in E:\php\xampp\htdocs\commanadmin\protected\controllers\WebserviceController.php (56)
+2014/01/29 08:41:36 [error] [system.db.CDbCommand] CDbCommand::() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'user_name' at line 1. The SQL statement executed was: user_name.
+in E:\php\xampp\htdocs\commanadmin\protected\extensions\JsonWebservice\JsonWebservice.php (245)
+in E:\php\xampp\htdocs\commanadmin\protected\extensions\JsonWebservice\JsonWebservice.php (43)
+in E:\php\xampp\htdocs\commanadmin\protected\controllers\WebserviceController.php (56)
+2014/01/29 08:41:51 [error] [system.db.CDbCommand] CDbCommand::() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'user_name' at line 1. The SQL statement executed was: user_name.
+in E:\php\xampp\htdocs\commanadmin\protected\extensions\JsonWebservice\JsonWebservice.php (245)
+in E:\php\xampp\htdocs\commanadmin\protected\extensions\JsonWebservice\JsonWebservice.php (43)
+in E:\php\xampp\htdocs\commanadmin\protected\controllers\WebserviceController.php (56)
+2014/01/29 08:43:26 [error] [system.db.CDbCommand] CDbCommand::() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'user_name' at line 1. The SQL statement executed was: user_name.
+in E:\php\xampp\htdocs\commanadmin\protected\extensions\JsonWebservice\JsonWebservice.php (244)
+in E:\php\xampp\htdocs\commanadmin\protected\extensions\JsonWebservice\JsonWebservice.php (43)
+in E:\php\xampp\htdocs\commanadmin\protected\controllers\WebserviceController.php (56)
+2014/01/29 09:14:05 [error] [exception.CException] exception 'CException' with message 'JsonWebservice and its behaviors do not have a method or closure named "p".' in E:\php\xampp\htdocs\yii\framework\base\CComponent.php:266
+Stack trace:
+#0 E:\php\xampp\htdocs\commanadmin\protected\extensions\JsonWebservice\JsonWebservice.php(134): CComponent->__call('p', Array)
+#1 E:\php\xampp\htdocs\commanadmin\protected\extensions\JsonWebservice\JsonWebservice.php(134): CApplicationComponent->p(Array)
+#2 E:\php\xampp\htdocs\commanadmin\protected\extensions\JsonWebservice\JsonWebservice.php(38): JsonWebservice->generateArrayForQuery(Array, Array, 'add', Array)
+#3 E:\php\xampp\htdocs\commanadmin\protected\controllers\WebserviceController.php(56): JsonWebservice->addData('user_master', Array, '', 'user_name', 1, Array, 'db')
+#4 E:\php\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): WebserviceController->actionAddData()
+#5 E:\php\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#6 E:\php\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#7 E:\php\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 E:\php\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('adddata')
+#9 E:\php\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('webservice/addd...')
+#10 E:\php\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#11 E:\php\xampp\htdocs\commanadmin\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/commanadmin/index.php/webservice/adddata?user_name=efz2&user_pass=arzu
+---
+2014/01/29 09:19:50 [error] [php] Array to string conversion (E:\php\xampp\htdocs\commanadmin\protected\extensions\JsonWebservice\JsonWebservice.php:140)
+Stack trace:
+#0 E:\php\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): WebserviceController->actionAddData()
+#1 E:\php\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#2 E:\php\xampp\htdocs\yii\framework\web\CController.php(286): WebserviceController->runAction()
+#3 E:\php\xampp\htdocs\yii\framework\web\CController.php(265): WebserviceController->runActionWithFilters()
+#4 E:\php\xampp\htdocs\yii\framework\web\CWebApplication.php(282): WebserviceController->run()
+#5 E:\php\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#6 E:\php\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#7 E:\php\xampp\htdocs\commanadmin\index.php(13): CWebApplication->run()
+REQUEST_URI=/commanadmin/index.php/webservice/adddata?user_name=efz13&user_pass=arzu
+in E:\php\xampp\htdocs\commanadmin\protected\extensions\JsonWebservice\JsonWebservice.php (140)
+in E:\php\xampp\htdocs\commanadmin\protected\extensions\JsonWebservice\JsonWebservice.php (38)
+in E:\php\xampp\htdocs\commanadmin\protected\controllers\WebserviceController.php (56)
+2014/01/29 09:46:46 [error] [system.db.CDbCommand] CDbCommand::() failed: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '19' for key 'PRIMARY'. The SQL statement executed was: insert into user_master(user_name,user_pass,u_id) values ('abc1','YWJj','19').
+in E:\php\xampp\htdocs\commanadmin\protected\extensions\JsonWebservice\JsonWebservice.php (289)
+in E:\php\xampp\htdocs\commanadmin\protected\extensions\JsonWebservice\JsonWebservice.php (63)
+in E:\php\xampp\htdocs\commanadmin\protected\controllers\WebserviceController.php (59)
+2014/01/29 09:47:07 [error] [php] Undefined index: user_name_old (E:\php\xampp\htdocs\commanadmin\protected\extensions\JsonWebservice\JsonWebservice.php:90)
+Stack trace:
+#0 E:\php\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 E:\php\xampp\htdocs\yii\framework\web\CController.php(286): WebserviceController->runAction()
+#2 E:\php\xampp\htdocs\yii\framework\web\CController.php(265): WebserviceController->runActionWithFilters()
+#3 E:\php\xampp\htdocs\yii\framework\web\CWebApplication.php(282): WebserviceController->run()
+#4 E:\php\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 E:\php\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#6 E:\php\xampp\htdocs\commanadmin\index.php(13): CWebApplication->run()
+REQUEST_URI=/commanadmin/index.php/webservice/updatedata?user_name=abc1&user_pass=abc&u_id=19&=user_name_old=efz13
+in E:\php\xampp\htdocs\commanadmin\protected\extensions\JsonWebservice\JsonWebservice.php (90)
+in E:\php\xampp\htdocs\commanadmin\protected\controllers\WebserviceController.php (83)
+in E:\php\xampp\htdocs\commanadmin\index.php (13)
+2014/01/29 09:47:53 [error] [system.db.CDbCommand] CDbCommand::() failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'user_name_old' in 'field list'. The SQL statement executed was: UPDATE user_master SET user_name='abc1',user_pass='YWJj',u_id='19',user_name_old='efz13' WHERE u_id = "19".
+in E:\php\xampp\htdocs\commanadmin\protected\extensions\JsonWebservice\JsonWebservice.php (289)
+in E:\php\xampp\htdocs\commanadmin\protected\extensions\JsonWebservice\JsonWebservice.php (113)
+in E:\php\xampp\htdocs\commanadmin\protected\controllers\WebserviceController.php (83)
+2014/01/29 09:48:51 [error] [system.db.CDbCommand] CDbCommand::() failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'user_name_old' in 'field list'. The SQL statement executed was: UPDATE user_master SET user_name='abc1',user_pass='YWJj',u_id='19',user_name_old='efz13' WHERE u_id = "19".
+in E:\php\xampp\htdocs\commanadmin\protected\extensions\JsonWebservice\JsonWebservice.php (289)
+in E:\php\xampp\htdocs\commanadmin\protected\extensions\JsonWebservice\JsonWebservice.php (113)
+in E:\php\xampp\htdocs\commanadmin\protected\controllers\WebserviceController.php (83)
+2014/01/29 09:49:26 [error] [system.db.CDbCommand] CDbCommand::() failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'user_name_old' in 'field list'. The SQL statement executed was: UPDATE user_master SET user_name='abc1',user_pass='YWJj',u_id='19',user_name_old='efz13' WHERE u_id = "19".
+in E:\php\xampp\htdocs\commanadmin\protected\extensions\JsonWebservice\JsonWebservice.php (290)
+in E:\php\xampp\htdocs\commanadmin\protected\extensions\JsonWebservice\JsonWebservice.php (114)
+in E:\php\xampp\htdocs\commanadmin\protected\controllers\WebserviceController.php (83)
+2014/01/29 10:03:28 [error] [php] Undefined index: user_pass (E:\php\xampp\htdocs\commanadmin\protected\controllers\WebserviceController.php:102)
+Stack trace:
+#0 E:\php\xampp\htdocs\yii\framework\web\CController.php(286): WebserviceController->runAction()
+#1 E:\php\xampp\htdocs\yii\framework\web\CController.php(265): WebserviceController->runActionWithFilters()
+#2 E:\php\xampp\htdocs\yii\framework\web\CWebApplication.php(282): WebserviceController->run()
+#3 E:\php\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 E:\php\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 E:\php\xampp\htdocs\commanadmin\index.php(13): CWebApplication->run()
+REQUEST_URI=/commanadmin/index.php/webservice/uservalidate?user_name=abc31&abc
+in E:\php\xampp\htdocs\commanadmin\protected\controllers\WebserviceController.php (102)
+in E:\php\xampp\htdocs\commanadmin\index.php (13)
+2014/01/29 10:03:43 [error] [php] Undefined variable: pass (E:\php\xampp\htdocs\commanadmin\protected\extensions\JsonWebservice\JsonWebservice.php:179)
+Stack trace:
+#0 E:\php\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 E:\php\xampp\htdocs\yii\framework\web\CController.php(286): WebserviceController->runAction()
+#2 E:\php\xampp\htdocs\yii\framework\web\CController.php(265): WebserviceController->runActionWithFilters()
+#3 E:\php\xampp\htdocs\yii\framework\web\CWebApplication.php(282): WebserviceController->run()
+#4 E:\php\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 E:\php\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#6 E:\php\xampp\htdocs\commanadmin\index.php(13): CWebApplication->run()
+REQUEST_URI=/commanadmin/index.php/webservice/uservalidate?user_name=abc31&user_pass=abc
+in E:\php\xampp\htdocs\commanadmin\protected\extensions\JsonWebservice\JsonWebservice.php (179)
+in E:\php\xampp\htdocs\commanadmin\protected\controllers\WebserviceController.php (107)
+in E:\php\xampp\htdocs\commanadmin\index.php (13)
+2014/01/29 10:04:41 [error] [system.db.CDbCommand] CDbCommand::() failed: SQLSTATE[HY000]: General error: 1267 Illegal mix of collations (latin1_swedish_ci,IMPLICIT) and (utf8_general_ci,COERCIBLE) for operation '='. The SQL statement executed was: SELECT * FROM 
+                    user_master 
+                WHERE 
+                    1=1 AND  user_name = 'abc31' AND user_pass = 'i·' LIMIT 1.
+in E:\php\xampp\htdocs\commanadmin\protected\extensions\JsonWebservice\JsonWebservice.php (250)
+in E:\php\xampp\htdocs\commanadmin\protected\extensions\JsonWebservice\JsonWebservice.php (184)
+in E:\php\xampp\htdocs\commanadmin\protected\controllers\WebserviceController.php (107)
+2015/12/18 14:47:18 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'db_general_admin.tbl_migration' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `tbl_migration`.

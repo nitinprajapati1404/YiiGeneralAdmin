@@ -1,0 +1,11 @@
+@charset "utf-8";
+/* CSS Document */
+.edit.builder .fullslidecard.col-md-12{  margin: 15px 0; padding:24px 19px;}
+.builder.edit .card_4_grid_product,
+.builder.edit .card_12_4_carousal,
+.builder.edit .card_12_grid_offercard,
+.builder.edit .card_12_outlet_hdr,
+.builder.edit .card_12_evnt_carousel
+{background:none; box-shadow:none; border:none; padding:0;}
+.rmvCard{    opacity: 0.2;    transition: all 500ms ease 0s; position: absolute;    right: 5px;    top: 5px;    z-index: 10;}
+

@@ -1,0 +1,8 @@
+## for basic api check test method in TestApiController
+
+## follow response code for every response
+
+## set http response code and send data 
+
+## for ref : http://localhost/generaladmin/apis/v1/testApi/test
+

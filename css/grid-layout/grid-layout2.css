@@ -1,0 +1,11 @@
+@charset "utf-8";
+/* CSS Document */
+body.builder{margin-left:0; background:#e4e7ea;}
+.maincontainer{background:#fff!important;}
+.headerbar{border-bottom:1px solid #eee!important;}
+.view .container{margin-left:-15px!important;}
+.builder.edit .demo{margin-top:30px!important; }
+.headerbar .logopanel{border-right:none!important; }
+.builder .demo .drag, .builder .demo .remove{opacity:1!important; }
+.addbtn{ }
+

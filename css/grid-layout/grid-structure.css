@@ -1,0 +1,9 @@
+@charset "utf-8";
+/* CSS Document */
+body.homepage, html{background:none; }
+body.builder{ background:#e4e7ea;}
+.maincontainer{background:#fff;}
+.headerbar{border-bottom:1px solid #eee;}
+.view .container{margin-left:-15px;}
+.headerbar .logopanel{border-right:none; }
+.builder.edit .container-fluid{margin-top:30px;}	
